@@ -1,86 +1,21 @@
 User Guide: Air Pollution Prediction
 
-Introduction
+This user guide provides step-by-step instructions on how to use the Air Pollution Prediction script in the Amazing-Python-Scripts repository. This script uses data from the World Air Quality Index API to predict air pollution levels in a given city.
 
-The Air Pollution Prediction script retrieves real-time air quality data from the World Air Quality Index API and presents it in a graphical format. This guide provides step-by-step instructions to help you install, configure, and use the script effectively.
-
-Step 1: Install Dependencies
-
-Before running the script, ensure that you have Python 3 installed along with the required libraries:
-
-Install Required Libraries
-
-Open a terminal or command prompt and run the following command:
+Step 1: Install Dependencies Before you can use the Air Pollution Prediction script, you need to make sure that you have all the necessary dependencies installed. This script requires Python 3 and the requests and matplotlib libraries. To install these dependencies, open a terminal or command prompt and run the following command:
 
 pip install requests matplotlib
+Step 2: Obtain an API Key To use the World Air Quality Index API, you will need to obtain an API key. You can do this by visiting the following website and following the instructions to create an account and obtain an API key: https://aqicn.org/data-platform/token/
 
-Step 2: Obtain an API Key
+Step 3: Download the Script Next, you need to download the Air Pollution Prediction script from the Amazing-Python-Scripts repository. You can do this by visiting the repository on GitHub and navigating to the Air pollution prediction directory. From there, you can download the CodeAP.py file to your computer.
 
-To access air pollution data, you need an API key from the World Air Quality Index API.
-
-Visit https://aqicn.org/data-platform/token/.
-
-Create an account if you don’t have one.
-
-Generate an API key and save it for later use.
-
-Step 3: Download the Script
-
-Download the Air Pollution Prediction script from the Amazing-Python-Scripts repository on GitHub.
-
-Navigate to the repository.
-
-Locate the Air Pollution Prediction directory.
-
-Download the CodeAP.py file to your computer.
-
-Step 4: Run the Script
-
-Once you have installed the dependencies and obtained an API key, follow these steps:
-
-Open a terminal or command prompt.
-
-Navigate to the directory where you saved CodeAP.py.
-
-Run the script using the command:
+Step 4: Run the Script Once you have downloaded the script and obtained an API key, you can run it by opening a terminal or command prompt, navigating to the directory where you saved the file, and running the following command:
 
 python CodeAP.py
+This will start the script and prompt you to enter your city name and API key.
 
-Enter your city name and API key when prompted.
+Step 5: View the Results After entering your city name and API key, the script will retrieve air pollution data from the World Air Quality Index API and display it in a pie chart. The chart shows the relative amounts of different pollutants in the air, such as PM2.5, PM10, NO2, SO2, and O3.
 
-Step 5: View the Results
+You can use this information to get an idea of air pollution levels in your city and take appropriate precautions.
 
-After entering the required details, the script:
-
-Retrieves real-time air quality data for the specified city.
-
-Displays a breakdown of pollutants such as PM2.5, PM10, NO2, SO2, O3, and Dew Point.
-
-Generates a pie chart to visualize the air pollution levels.
-
-This data helps you understand air pollution trends and take necessary precautions.
-
-Example Output:
-
-City AQI: Displays the Air Quality Index (AQI) value.
-
-Pollutants & Concentrations: A list of individual pollutant levels.
-
-Pie Chart: A graphical representation of the pollutants in the air.
-
-Additional Notes
-
-You can experiment with different cities to compare air pollution levels.
-
-Ensure that your API key is valid and not expired.
-
-If the script fails to retrieve data, check your internet connection and API key.
-
-Conclusion
-
-The Air Pollution Prediction script provides a simple way to monitor air quality in any city. By visualizing pollution data, users can make informed decisions regarding air quality and health precautions.
-
-If you encounter any issues, consider checking the GitHub repository for updates or troubleshooting tips.
-
-Happy Coding! 🚀
-
+You can experiment with different cities to see how their air pollution levels compare
