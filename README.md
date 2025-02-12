@@ -3,8 +3,7 @@
 This user guide provides step-by-step instructions on how to use the Air Pollution Prediction script in the Amazing-Python-Scripts repository. This script uses data from the World Air Quality Index API to predict air pollution levels in a given city.
 
 
-**
-Step 1**: Install Dependencies Before you can use the Air Pollution Prediction script, you need to make sure that you have all the necessary dependencies installed. This script requires Python 3 and the requests and matplotlib libraries. To install these dependencies, open a terminal or command prompt and run the following command:
+**step 1**: Install Dependencies Before you can use the Air Pollution Prediction script, you need to make sure that you have all the necessary dependencies installed. This script requires Python 3 and the requests and matplotlib libraries. To install these dependencies, open a terminal or command prompt and run the following command:
 
 
 
